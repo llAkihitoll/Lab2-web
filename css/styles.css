@@ -194,3 +194,55 @@ body.neutral a:hover {
         width: 80%;
     }
 }
+
+body.waterfall {
+    background: linear-gradient(135deg, #0f3057, #00587a);
+    color: #e0f7fa;
+}
+
+body.waterfall h1 {
+    text-shadow: 0 0 10px #00bcd4;
+}
+
+body.waterfall p {
+    color: #b2ebf2;
+}
+
+body.waterfall a {
+    background: linear-gradient(135deg, #4dd0e1, #00838f);
+    color: white;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+}
+
+body.waterfall a:hover {
+    transform: scale(1.08);
+    background: linear-gradient(135deg, #26c6da, #006064);
+}
+
+a {
+    display: inline-block;
+    margin: 10px;
+    padding: 14px 28px;
+
+    font-weight: bold;
+    letter-spacing: 1px;
+
+    background-color: var(--color-secondary);
+    color: black;
+
+    text-decoration: none;
+    border-radius: var(--radius);
+
+    box-shadow: 0 5px 12px rgba(0,0,0,0.3);
+
+    transition: var(--transition);
+}
+
+a:hover {
+    transform: translateY(-3px) scale(1.05);
+    opacity: 0.9;
+}
+
+a:active {
+    transform: scale(0.98);
+}
