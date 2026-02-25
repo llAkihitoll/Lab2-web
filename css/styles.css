@@ -146,6 +146,9 @@ body.bad {
     background: radial-gradient(circle, #1a0000, #000000);
     color: var(--color-bad-accent);
 }
+body.bad p {
+    color: #720202;
+}
 
 body.bad h1 {
     animation: dangerPulse 1.5s infinite;
