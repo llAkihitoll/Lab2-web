@@ -153,9 +153,6 @@ body.bad h1 {
 
 body.neutral {
     background: linear-gradient(135deg, #e8f5e9, #c8e6c9);
-    color: var(--color-neutral-accent);
-}
-body.neutral p {
     color: #000000;
 }
 
